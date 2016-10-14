@@ -22,10 +22,9 @@ class Interactive {
     
     func go() {
         
-        
         while !done {
             
-            io.writeMessage(" WELCOME TO OUR ZOO.\n Press 1 to add animal to the zoo. \n Press 2 to list animals in zoo. \n Press 3 to add people to the zoo. \n Press 4 to list people in the zoo.  \n Press 4 for Help menu \n Press 5 for EXIT")
+            io.writeMessage(" WELCOME TO OUR ZOO.\n Press 1 to add animal to the zoo. \n Press 2 to list animals in zoo. \n Press 3 to add people to the zoo. \n Press 4 to list people in the zoo.  \n Press 5 for Help menu \n Press 6 for EXIT")
             currentInput = io.getInput()
   // add animal
             
@@ -45,31 +44,31 @@ class Interactive {
 
 // add people  ** This option is not working ...
                 if currentInput == "3" {
-                let peopleType = io.getInput()
+                let type = io.getInput()
                 io.writeMessage("please enter the type of person who is coming into the zoo?  Ex:employee, visitor")
-                let peopleName = io.getInput()
+                let name = io.getInput()
                 io.writeMessage("What is the name of the person?  Ex. Manager, Ticket Taker, Man Woman or Child ")
-                zoo.addPeople(type: peopleType, name: peopleName)
+                zoo.addPeople(type: type, name: name)
                 print ("Who is in the zoo")
            
                 
 //list people
-        }   else if currentInput == "3"{
+        }   else if currentInput == "4"{
             zoo.listPeople()
             print("These are the people at the zoo today")
                 
                 
                 
 // help menu
-        }   else if currentInput == "4"{
-            print("HELP MENU: WELCOME TO OUR ZOO.\n Press 1 to add animal to the zoo. \n Press 2 to list animals in zoo. \n Press 3 to add people to the zoo.  \n Press 4 to list people in the zoo.  \n Press 4 for Help menu.  \n Press 5 for Exit")
+        }   else if currentInput == "5"{
+            print("HELP MENU: WELCOME TO OUR ZOO.\n Press 1 to add animal to the zoo. \n Press 2 to list animals in zoo. \n Press 3 to add people to the zoo.  \n Press 4 to list people in the zoo.  \n Press 5 for Help menu.  \n Press 6 for Exit")
                 
    
         }   else if currentInput == ""{
             print("Invailed entry please try again")
 // exit
         }   else if
-                currentInput == "5" {
+                currentInput == "6" {
                 done = true
                 print ( "Exiting.....")
             }
