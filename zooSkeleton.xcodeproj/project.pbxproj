@@ -1,0 +1,278 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A1ABFCC1DAD64A500A797AD /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1ABFCB1DAD64A500A797AD /* main.swift */; };
+		2A1ABFD31DAD64D400A797AD /* interactive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1ABFD21DAD64D400A797AD /* interactive.swift */; };
+		2A1ABFD51DAD651200A797AD /* io.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1ABFD41DAD651200A797AD /* io.swift */; };
+		2A1ABFD71DAD656800A797AD /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1ABFD61DAD656800A797AD /* Animal.swift */; };
+		2A1ABFD91DAD657400A797AD /* people.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1ABFD81DAD657400A797AD /* people.swift */; };
+		2A1ABFDF1DAD6B7100A797AD /* zooClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1ABFDE1DAD6B7100A797AD /* zooClass.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2A1ABFC61DAD64A500A797AD /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2A1ABFC81DAD64A500A797AD /* zooSkeleton */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = zooSkeleton; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A1ABFCB1DAD64A500A797AD /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		2A1ABFD21DAD64D400A797AD /* interactive.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = interactive.swift; sourceTree = "<group>"; };
+		2A1ABFD41DAD651200A797AD /* io.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = io.swift; sourceTree = "<group>"; };
+		2A1ABFD61DAD656800A797AD /* Animal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
+		2A1ABFD81DAD657400A797AD /* people.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = people.swift; sourceTree = "<group>"; };
+		2A1ABFDE1DAD6B7100A797AD /* zooClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = zooClass.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A1ABFC51DAD64A500A797AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A1ABFBF1DAD64A500A797AD = {
+			isa = PBXGroup;
+			children = (
+				2A1ABFCA1DAD64A500A797AD /* zooSkeleton */,
+				2A1ABFC91DAD64A500A797AD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2A1ABFC91DAD64A500A797AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A1ABFC81DAD64A500A797AD /* zooSkeleton */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A1ABFCA1DAD64A500A797AD /* zooSkeleton */ = {
+			isa = PBXGroup;
+			children = (
+				2A1ABFCB1DAD64A500A797AD /* main.swift */,
+				2A1ABFD21DAD64D400A797AD /* interactive.swift */,
+				2A1ABFD41DAD651200A797AD /* io.swift */,
+				2A1ABFD61DAD656800A797AD /* Animal.swift */,
+				2A1ABFD81DAD657400A797AD /* people.swift */,
+				2A1ABFDE1DAD6B7100A797AD /* zooClass.swift */,
+			);
+			path = zooSkeleton;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A1ABFC71DAD64A500A797AD /* zooSkeleton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A1ABFCF1DAD64A500A797AD /* Build configuration list for PBXNativeTarget "zooSkeleton" */;
+			buildPhases = (
+				2A1ABFC41DAD64A500A797AD /* Sources */,
+				2A1ABFC51DAD64A500A797AD /* Frameworks */,
+				2A1ABFC61DAD64A500A797AD /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = zooSkeleton;
+			productName = zooSkeleton;
+			productReference = 2A1ABFC81DAD64A500A797AD /* zooSkeleton */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A1ABFC01DAD64A500A797AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Melissa Anderson";
+				TargetAttributes = {
+					2A1ABFC71DAD64A500A797AD = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2A1ABFC31DAD64A500A797AD /* Build configuration list for PBXProject "zooSkeleton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2A1ABFBF1DAD64A500A797AD;
+			productRefGroup = 2A1ABFC91DAD64A500A797AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A1ABFC71DAD64A500A797AD /* zooSkeleton */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A1ABFC41DAD64A500A797AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A1ABFD91DAD657400A797AD /* people.swift in Sources */,
+				2A1ABFD31DAD64D400A797AD /* interactive.swift in Sources */,
+				2A1ABFD71DAD656800A797AD /* Animal.swift in Sources */,
+				2A1ABFD51DAD651200A797AD /* io.swift in Sources */,
+				2A1ABFCC1DAD64A500A797AD /* main.swift in Sources */,
+				2A1ABFDF1DAD6B7100A797AD /* zooClass.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2A1ABFCD1DAD64A500A797AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2A1ABFCE1DAD64A500A797AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2A1ABFD01DAD64A500A797AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2A1ABFD11DAD64A500A797AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A1ABFC31DAD64A500A797AD /* Build configuration list for PBXProject "zooSkeleton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A1ABFCD1DAD64A500A797AD /* Debug */,
+				2A1ABFCE1DAD64A500A797AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A1ABFCF1DAD64A500A797AD /* Build configuration list for PBXNativeTarget "zooSkeleton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A1ABFD01DAD64A500A797AD /* Debug */,
+				2A1ABFD11DAD64A500A797AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A1ABFC01DAD64A500A797AD /* Project object */;
+}
