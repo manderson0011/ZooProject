@@ -13,24 +13,22 @@ import Foundation
 
 class People {
     
+        let type: String
+        let name: String
 
-  
-        var type: String
-        var name: String
-        var location: String
-        
-        init(type: String, name: String, location: String){
+
+    init(type: String, name: String){
             self.type = type
             self.name = name
-            self.location = location
+    
+            
         }
         
-        func listInfo(){
+        func listInfoPeople(){
             print("* people Type: \(type)")
-            print("* people Location: \(type)")
+            print("* people Name: \(type)")
             
         }
     }
 
 
-    

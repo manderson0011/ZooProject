@@ -17,9 +17,6 @@ class Interactive {
     private var currentInput: String = "q"
     private var io = Io()
     private var zoo = Zoo()
-    private var people = People()
-    private var animal = Animal()
-    
     
     
     
@@ -28,49 +25,56 @@ class Interactive {
         
         while !done {
             
-            io.writeMessage(" WELCOME TO OUR ZOO.\n Press 1 to return to Help Menu \n Press 2 to go to Stage \n Press3 to move to pen")
+            io.writeMessage(" WELCOME TO OUR ZOO.\n Press 1 to add animal to the zoo. \n Press 2 to list animals in zoo. \n Press 3 to add people to the zoo. \n Press 4 to list people in the zoo.  \n Press 4 for Help menu \n Press 5 for EXIT")
             currentInput = io.getInput()
+  // add animal
             
-//animal location
-            if currentInput == "2" {
-            io.writeMessage("Location of Animal?")
-            currentInput = io.getInput()
+            if currentInput == "1" {
+            var animalName = io.getInput()
+            io.writeMessage("What is the name of the animal you wish to add?")
+            var species = io.getInput()
+            io.writeMessage("What is the Id of the animal you are adding.  This can be species ex. mammal, reptile, bird")
+            zoo.addAnimal(type: species, name: animalName)
             
-            let species = String(currentInput)
-            Zoo.removeanimal(species: species)
-            
-            print ("")
-// add animal
-            
-        }   else if currentInput == "3" {
-            io.writeMessage("What is the type of the animal to add?")
-            currentInput = io.getInput()
-            
-            let type = String (currentInput)
-            io.writeMessage("What is the name of the animal you to add?")
-            
-            let bookName = io.getInput()
-            zoo.addanimal(species: species, name: name, location: location)
             print ("The animal has been added to the zoo")
             
 // list animals
-        }   else if currentInput == "6" {
+        }   else if currentInput == "2" {
             zoo.listAnimals()
             print("These are the animals you can visit today")
-            
-        }   else if currentInput == "8"{
-            zoo.listpeople()
-            print("These are the people at the zoo today")
 
-    
+// add people  ** This option is not working ...
+                if currentInput == "3" {
+                let peopleType = io.getInput()
+                io.writeMessage("please enter the type of person who is coming into the zoo?  Ex:employee, visitor")
+                let peopleName = io.getInput()
+                io.writeMessage("What is the name of the person?  Ex. Manager, Ticket Taker, Man Woman or Child ")
+                zoo.addPeople(type: peopleType, name: peopleName)
+                print ("Who is in the zoo")
+           
+                
+//list people
+        }   else if currentInput == "3"{
+            zoo.listPeople()
+            print("These are the people at the zoo today")
+                
+                
+                
+// help menu
+        }   else if currentInput == "4"{
+            print("HELP MENU: WELCOME TO OUR ZOO.\n Press 1 to add animal to the zoo. \n Press 2 to list animals in zoo. \n Press 3 to add people to the zoo.  \n Press 4 to list people in the zoo.  \n Press 4 for Help menu.  \n Press 5 for Exit")
+                
+   
         }   else if currentInput == ""{
             print("Invailed entry please try again")
-           
+// exit
         }   else if
-                currentInput == "9" {
+                currentInput == "5" {
                 done = true
                 print ( "Exiting.....")
             }
         }
+            
     }
+}
 }

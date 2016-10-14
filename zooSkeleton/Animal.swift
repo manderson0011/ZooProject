@@ -18,18 +18,22 @@ class Animal {
   
     var species: String
     var name: String
-    var location: String
     
-    init(species: String, name: String, location: String){
+    
+    init(species: String, name: String){
         self.species = species
         self.name = name
-        self.location = location
+        
 }
 
     func listInfo(){
         print("* animal Type: \(species)")
-        print("* animal Location: \(location)")
+        print("* animal Name: \(name)")
     }
+    
+    
+    
+    
 }
  
 
